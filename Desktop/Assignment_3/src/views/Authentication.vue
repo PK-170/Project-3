@@ -2,13 +2,13 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>My App</ion-title>
+        <ion-title>Welcome</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-card>
         <ion-card-header>
-          <ion-card-title> Welcome to my Ionic app </ion-card-title>
+          <ion-card-title> Image Recognition app  </ion-card-title>
           <ion-card-subtitle> Please Sign In/ Sign Up </ion-card-subtitle>
         </ion-card-header>
         <ion-card-content>
@@ -41,25 +41,21 @@
             </ion-button>
             <ion-button
               expand="block"
-              color="dark"
+              color="tertiary"
               class="ion-margin-top"
-              @click="
-                mode =
-                  mode === AuthMode.SignIn ? AuthMode.SignUp : AuthMode.SignIn
-              "
+              @click="mode = mode === AuthMode.SignIn ? AuthMode.SignUp : AuthMode.SignIn "
             >
               {{ mode === AuthMode.SignIn ? "Sign Up" : "Cancel" }}
             </ion-button>
           </form>
         </ion-card-content>
         <ion-card-content v-if="errorMsg" class="error-message">
-          {{ errorMsg }}
+            {{errorMsg}}
         </ion-card-content>
       </ion-card>
     </ion-content>
   </ion-page>
 </template>
-
 
 <script lang="ts">
 import {
@@ -69,6 +65,7 @@ import {
   IonTitle,
   IonContent,
   IonCard,
+  IonCardHeader,
   IonCardSubtitle,
   IonCardTitle,
   IonCardContent,
@@ -81,7 +78,6 @@ import {
 import { auth, database } from "../main";
 import { reactive, toRefs } from "vue";
 import { useRouter } from "vue-router";
-import { async } from "@firebase/util";
 
 enum AuthMode {
   SignIn,
@@ -94,16 +90,17 @@ export default {
     IonPage,
     IonHeader,
     IonToolbar,
+    IonTitle,
     IonContent,
     IonCard,
     IonCardSubtitle,
     IonCardTitle,
     IonCardContent,
     IonInput,
+    IonButton,
     IonLabel,
     IonItem,
-    IonTitle,
-    IonButton,
+    IonCardHeader
   },
   setup() {
     const router = useRouter();
@@ -121,13 +118,13 @@ export default {
     ) => {
       try {
         if (!email || !password) {
-          state.errorMsg = "email and password must be entered";
+          state.errorMsg = "Email and password required!";
           return;
         }
 
         await auth.signInWithEmailAndPassword(email, password);
         router.push("/tabs/tab1");
-      } catch (e) {
+      }catch (e) {
         console.log((e as Error).message);
       }
     };
@@ -173,7 +170,7 @@ export default {
 .center {
   display: flex;
   height: 90vh;
-  width: 90%;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }

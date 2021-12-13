@@ -1,7 +1,8 @@
 {
-  "name": "Assignment_2",
+  "name": "photo-sharing-app",
   "integrations": {
     "capacitor": {}
   },
-  "type": "vue"
+  "type": "vue",
+  "id": "ec219072"
 }

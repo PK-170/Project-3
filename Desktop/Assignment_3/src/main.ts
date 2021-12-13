@@ -4,6 +4,7 @@ import router from './router';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import 'firebase/compat/storage';
 
 import { IonicVue } from '@ionic/vue';
 
@@ -26,8 +27,8 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
- // Your web app's Firebase configuration
- const firebaseConfig = {
+// Your web app's Firebase configuration
+const firebaseConfig = {
   apiKey: "AIzaSyCx4SF9FD78Iudx8JydjFUpd-RLKLPumo8",
   authDomain: "assignment-3-7ee60.firebaseapp.com",
   projectId: "assignment-3-7ee60",
@@ -35,18 +36,23 @@ import './theme/variables.css';
   messagingSenderId: "594503605637",
   appId: "1:594503605637:web:38b736ad802f85437338ec"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 export const auth = firebase.auth();
 export const database = firebase.firestore();
+export const storage = firebase.storage();
 
+let app: any;
 
-const app = createApp(App)
-  .use(IonicVue)
-  .use(router);
-  
-router.isReady().then(() => {
-  app.mount('#app');
-});
+auth.onAuthStateChanged(async user => {
+  if (!app) {
+    app = createApp(App)
+      .use(IonicVue)
+      .use(router);
+
+    router.isReady().then(() => {
+      app.mount('#app');
+    });
+  }
+})
