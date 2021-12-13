@@ -7,6 +7,7 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/storage';
 
 import { IonicVue } from '@ionic/vue';
+import {defineCustomElements} from '@ionic/pwa-elements/loader';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/vue/css/core.css';
@@ -39,6 +40,7 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+defineCustomElements(window);
 export const auth = firebase.auth();
 export const database = firebase.firestore();
 export const storage = firebase.storage();
