@@ -38,15 +38,13 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,7 +62,8 @@
       <workItem from="1651036190577" duration="919000" />
       <workItem from="1651208798450" duration="1638000" />
       <workItem from="1651289184879" duration="438000" />
-      <workItem from="1651291194847" duration="791000" />
+      <workItem from="1651291194847" duration="1137000" />
+      <workItem from="1651294790727" duration="337000" />
     </task>
     <servers />
   </component>
