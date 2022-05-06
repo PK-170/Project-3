@@ -12,6 +12,9 @@ I would recommend using Jackson for working with JSONs and avoiding using Gson, 
 Reference
 
 https://mvnrepository.com/artifact/org.json/json
+
 https://stackoverflow.com/questions/42641301/org-json-jsonobject-vs-gson-library-jsonobject
+
 https://medium.com/@dannydamsky99/heres-why-you-probably-shouldn-t-be-using-the-gson-library-in-2018-4bed5698b78b
+
 https://javarevisited.blogspot.com/2016/09/top-5-json-library-in-java-JEE.html#axzz6ttb7mO6h
