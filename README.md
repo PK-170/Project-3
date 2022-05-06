@@ -1,7 +1,12 @@
+Task 9 - 
 
-In this assignment, I have used “json.org” library. JSON is a lightweight, language independent, data interchange format. I chose this library because it's small and easy to reuse Map and List interfaces from JDK. A good thing about this library is that it has no external dependency and both source and binary are JDK 1.2 compatible.
+(a) - I don't think I need to give any special instructions
 
-Also, I’m converting small strings, so don’t really need a bigger library. Because even if you use a bigger library with more methods and it provides great features, it looks like a good tool. I’ll not be going to use all the methods. So, in my opinion if it’s a small program, I would prefer to use a small library.
+(b) - 
+
+In this assignment, I have used “org.json” library. JSON is a lightweight, language independent, data interchange format. I chose this library because it's small and easy to reuse Map and List interfaces from JDK. A good thing about this library is that it has no external dependency and both source and binary are JDK 1.2 compatible.
+
+I’m converting small strings, so don’t really need a bigger library. Because even if you use a bigger library with more methods and it provides great features, it looks like a good tool. I’ll not be going to use all the methods. So, in my opinion if it’s a small program, I would prefer to use a small library.
 
 It also includes the capability to convert between JSON and XML, HTTP headers, Cookies, and CDL.
 This is a reference implementation. There are many JSON packages in Java.
