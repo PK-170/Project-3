@@ -1,0 +1,5 @@
+[
+{"startTime":1651837939265,"thread":"main","loggerName":"nz.ac.wgtn.swen301.assignment2.MemAppender","message":"This is the Fatal Level"},
+{"startTime":1651837939266,"thread":"main","loggerName":"nz.ac.wgtn.swen301.assignment2.MemAppender","message":"This is the Error Level"},
+{"startTime":1651837939266,"thread":"main","loggerName":"nz.ac.wgtn.swen301.assignment2.MemAppender","message":"This is the Info Level"}
+]

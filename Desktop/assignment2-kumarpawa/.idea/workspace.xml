@@ -37,7 +37,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="JUnit.JsonLayoutTest.test05">
+  <component name="RunManager" selected="JUnit.MemAppenderTest.test2">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -47,54 +47,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonLayoutTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment2-kumarpawa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JsonLayoutTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonLayoutTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment2-kumarpawa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JsonLayoutTest" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonLayoutTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment2-kumarpawa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.JsonLayoutTest" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,13 +83,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemAppenderTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-kumarpawa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.MemAppenderTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemAppenderTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-kumarpawa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.MemAppenderTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemAppenderTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-kumarpawa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nz.ac.wgtn.swen301.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nz.ac.wgtn.swen301.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="nz.ac.wgtn.swen301.assignment2.MemAppenderTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemAppenderTest.test2" />
+        <item itemvalue="JUnit.MemAppenderTest.test3" />
+        <item itemvalue="JUnit.MemAppenderTest.test4" />
         <item itemvalue="JUnit.JsonLayoutTest.test05" />
         <item itemvalue="JUnit.JsonLayoutTest.test04" />
-        <item itemvalue="JUnit.JsonLayoutTest.test03" />
-        <item itemvalue="JUnit.JsonLayoutTest.test02" />
-        <item itemvalue="JUnit.JsonLayoutTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,7 @@
       <workItem from="1651319499894" duration="146000" />
       <workItem from="1651324142099" duration="6000" />
       <workItem from="1651324156882" duration="2458000" />
-      <workItem from="1651405107465" duration="3678000" />
+      <workItem from="1651405107465" duration="4362000" />
     </task>
     <servers />
   </component>
