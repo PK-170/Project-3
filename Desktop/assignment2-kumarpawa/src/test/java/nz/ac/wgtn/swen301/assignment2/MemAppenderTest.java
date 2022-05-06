@@ -72,9 +72,4 @@ public class MemAppenderTest {
         memAppender.exportToJSON("jsonFile.json");
     }
 
-
-
-
-
-
 }
