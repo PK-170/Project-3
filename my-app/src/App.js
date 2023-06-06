@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Welcome to Textutils App
+          Welcome to Textutils Application
         </a>
       </header>
     </div>
